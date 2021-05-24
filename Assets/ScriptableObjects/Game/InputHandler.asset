@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff91bc65f54a7469327bb347de1fe9, type: 3}
+  m_Name: InputHandler
+  m_EditorClassIdentifier: 
+  onPlayerMove: {fileID: 11400000, guid: 6ecdf862b1ca7cf48824c359507b7710, type: 2}
+  onPlayerRotateCamera: {fileID: 11400000, guid: bfb7539868e6c5e4ba7ff7a0b0deab69, type: 2}
+  onPlayerAttackBegin: {fileID: 11400000, guid: 5ee0d6fef9effa94bbe8bf3d741e5b6c, type: 2}
+  onPlayerAttackEnd: {fileID: 11400000, guid: 3794f27ab0ee0bf4c96d51f4b85b0e7c, type: 2}
+  onPlayerDefenceBegin: {fileID: 11400000, guid: a75f32d03eacb6e46a76df1ce8f8e319, type: 2}
+  onPlayerDefenceEnd: {fileID: 11400000, guid: 9eee28071095df74ca51112c9e0f1da8, type: 2}
+  onPlayerJump: {fileID: 11400000, guid: fff9471ded7a5c6469056f67edf66bb6, type: 2}
+  onPlayerSprint: {fileID: 11400000, guid: bb4015ed49de19b4599898b32fcec337, type: 2}
+  onPlayerInteract: {fileID: 11400000, guid: 5db60ed972cdb6943b4090910951949f, type: 2}
+  onPlayerRemoveWeapon: {fileID: 11400000, guid: 555e3a3bbb2a6074a8b99f03542d45a1, type: 2}
+  onPlayerUIInvetory: {fileID: 11400000, guid: 76ce67c51766e17498ae22770e02ac88, type: 2}
+  onPlayerUIUseItem: {fileID: 11400000, guid: bf15717cdb8259c4f8180eb7e6a2aecf, type: 2}
+  onPlayerUIDropItem: {fileID: 11400000, guid: a8a57e593b670a749a157e6daed83991, type: 2}
+  onInputActionsUpdate: {fileID: 11400000, guid: 8ab3c00c85f20cf46a14e9da3cd34558, type: 2}
+  onLockPlayerActions: {fileID: 11400000, guid: 5695cb5c31852dc4d926fc6fb6d734d5, type: 2}

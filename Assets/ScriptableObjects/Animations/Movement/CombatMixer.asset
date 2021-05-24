@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2d01d4f425b3848938f199392c9afb, type: 3}
+  m_Name: CombatMixer
+  m_EditorClassIdentifier: 
+  _Transition:
+    _FadeDuration: 0.25
+    _Events:
+      _Names: []
+      _NormalizedTimes: []
+      _Callbacks: []
+    _Speed: 1
+    _States:
+    - {fileID: -596445162681278163, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    - {fileID: -7021229291397922372, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    - {fileID: 1327679156542235408, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    - {fileID: -1610510672160973921, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    - {fileID: -8408823164784143094, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    - {fileID: -8539057977442147022, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+    _Speeds: []
+    _SynchroniseChildren: 00
+    _Thresholds:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: -1}
+    - {x: 0, y: 2}
+    _DefaultParameter: {x: 0, y: 0}
+    _Type: 0

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677afd048fca1f429375d366e2be2a2, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  title: Shield
+  icon: {fileID: 21300000, guid: c445516ecf95ab544a234bd54fc0c75e, type: 3}
+  prefab: {fileID: 3475305906545792288, guid: 65b6a5689fdd7674d9120f70ddf84d26, type: 3}
+  handHolder: 0
+  bodyHolder: 3
+  occupy: 0
+  weaponAnimations:
+    idle:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 6153718626999458222, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    grab:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - GrabWeapon
+        _NormalizedTimes:
+        - 0.60561234
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: 4858023943214071750, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    remove:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - RemoveWeapon
+        _NormalizedTimes:
+        - 0.5267464
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: -397663667806117742, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    layer: 1
+    idleWeight: 0.5
+  defenceValue: 0.5
+  defenceAngle: 90
+  shieldAnimations:
+    defence:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 9183941725963738748, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    damageImpact:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 6819437874489421732, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN

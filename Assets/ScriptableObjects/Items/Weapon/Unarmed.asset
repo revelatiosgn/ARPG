@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c9809c9b2513eb40955f4ead769c560, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: 
+  title: Unarmed
+  icon: {fileID: 21300000, guid: 4d0bc4e4125dc6746889ad518d054d8a, type: 3}
+  prefab: {fileID: 0}
+  handHolder: 1
+  bodyHolder: 0
+  occupy: 0
+  weaponAnimations:
+    idle:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: -7509854731239166159, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    grab:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - GrabWeapon
+        _NormalizedTimes:
+        - -0.086798176
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: -4994549420414190230, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    remove:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - RemoveWeapon
+        _NormalizedTimes:
+        - 0
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: -863549864455620857, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    layer: 3
+    idleWeight: 0.5
+  type: 0
+  angle: 90
+  damage: 1
+  range: 2
+  meleeAnimations:
+    attacks:
+    - _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - AttackHit
+        - AttackReady
+        _NormalizedTimes:
+        - 0.49988535
+        - 0.6135386
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: -5605604036266521225, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    - _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - AttackHit
+        - AttackReady
+        _NormalizedTimes:
+        - 0.43699837
+        - 0.54912835
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: 7866773149311903903, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    defence:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 897332604320122711, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    damageImpact:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 0}
+      _Speed: 1
+      _NormalizedStartTime: NaN

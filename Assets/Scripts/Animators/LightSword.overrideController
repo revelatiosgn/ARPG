@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightSword
+  m_Controller: {fileID: 9100000, guid: 6832195d974a2e1438998c7d9662a18b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 176fac875603d3f419eb970f987aeab5, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 4fa0413861c72d044a8e1dadb719a77e, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 176fac875603d3f419eb970f987aeab5, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 70dca8c4827b6654785f98adbc382545, type: 3}
+  - m_OriginalClip: {fileID: 7400004, guid: 176fac875603d3f419eb970f987aeab5, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 4fa0413861c72d044a8e1dadb719a77e, type: 3}

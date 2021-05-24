@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e263264c58fc90340a86a09897f35dd4, type: 3}
+  m_Name: RangedWeapon
+  m_EditorClassIdentifier: 
+  title: Bow
+  icon: {fileID: 21300000, guid: 2e98c0da41f911048a24ca84e5a8d1b6, type: 3}
+  prefab: {fileID: 7247515202842409471, guid: dac93ac05de79af45bf7a46628311d9c, type: 3}
+  handHolder: 0
+  bodyHolder: 2
+  occupy: 1
+  weaponAnimations:
+    idle:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 5369376909770662806, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    grab:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - GrabWeapon
+        _NormalizedTimes:
+        - 0.6136748
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: 5131195027916413696, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    remove:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - RemoveWeapon
+        _NormalizedTimes:
+        - 0.5267367
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: -2513207890004960447, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    layer: 1
+    idleWeight: 0.5
+  damage: 3
+  range: 30
+  rangedAnimations:
+    grabArrow:
+      _FadeDuration: 0.25
+      _Events:
+        _Names:
+        - GrabArrow
+        _NormalizedTimes:
+        - 0.22553007
+        - NaN
+        _Callbacks: []
+      _Clip: {fileID: 8460903834244352425, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    aim:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 3892822986616555280, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
+    launch:
+      _FadeDuration: 0.25
+      _Events:
+        _Names: []
+        _NormalizedTimes: []
+        _Callbacks: []
+      _Clip: {fileID: 903242979849953830, guid: ac71506fb2b217246bd696b1e5058c81, type: 3}
+      _Speed: 1
+      _NormalizedStartTime: NaN
